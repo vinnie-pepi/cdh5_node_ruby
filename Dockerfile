@@ -5,6 +5,7 @@ RUN apt-add-repository ppa:brightbox/ruby-ng && \
     apt-get update && \
     apt-get -y --force-yes install \
     build-essential \
+    git \
     libcurl4-openssl-dev \
     ruby2.3 ruby2.3-dev
 
